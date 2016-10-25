@@ -12,14 +12,13 @@ Add a library to your project:
 
 Add an LedLight Object into your project, uisung PWM PIN number as an argument in brackets().
 <pre><code>
-LedLight white(14);
+LedLight led(14);
 </code></pre>
 
+Put in loop section show function of an object using two arguments: boolean state of an output and brightness value.
+<pre><code>
+led.show(true,127);
+</code></pre>
 
-void setup() {  }
-void loop() {
-  white.show(true,random(255));
-  delay(3000);
-}
 
 
