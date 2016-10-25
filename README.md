@@ -8,7 +8,13 @@ Based on built-in function analogWrite(), focused on optical correction of light
 Add a library to your project:
 <pre><code>
 #include <LedLight.h>
+</code></pre>
+
+Add an LedLight Object into your project, uisung PWM PIN number as an argument in brackets().
+<pre><code>
 LedLight white(14);
+</code></pre>
+
 
 void setup() {  }
 void loop() {
@@ -16,4 +22,4 @@ void loop() {
   delay(3000);
 }
 
-</code></pre>
+
