@@ -5,7 +5,7 @@ Based on built-in function analogWrite(), focused on optical correction of light
 
 
 <h3>Basic Usage</h3>
-
+<pre><code>
 Add a library to your project:
 #include <LedLight.h>
 LedLight white(14);
@@ -15,3 +15,5 @@ void loop() {
   white.show(true,random(255));
   delay(3000);
 }
+
+</pre></code>
