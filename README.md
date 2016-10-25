@@ -8,7 +8,7 @@ Based on built-in function analogWrite(), focused on optical correction of light
 
 Add a library to your project:
 <code>
-#include <LedLight.h>
+#include
 LedLight white(14);</code>
 
 void setup() {  }
