@@ -7,7 +7,7 @@ Based on built-in function analogWrite(), focused on optical correction of light
 <h3>Basic Usage</h3>
 Add a library to your project:
 <pre><code>
-#include <LedLight.h>
+#include "LedLight.h"
 </code></pre>
 
 Add an LedLight Object into your project, uisung PWM PIN number as an argument in brackets().
