@@ -7,7 +7,7 @@ Based on built-in function analogWrite(), focused on optical correction of light
 <h3>Basic Usage</h3>
 
 Add a library to your project:
-<code>
+<pre><code>
 #include
 LedLight white(14);</code>
 
