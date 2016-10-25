@@ -17,7 +17,7 @@ LedLight led(14);
 
 Put in loop section show function of an object using two arguments: boolean state of an output and brightness value.
 <pre><code>
-led.show(true,127);
+led.show(bool State, uint16_t Brightness);
 </code></pre>
 
 
