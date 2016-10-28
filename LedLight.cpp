@@ -9,7 +9,7 @@
 */
 
 #include <Arduino.h>
-#include "LedLight.h"
+#include "pwm2eye.h"
 
 LedLight::LedLight(int pin)
 {
