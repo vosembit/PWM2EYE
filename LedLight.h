@@ -8,8 +8,8 @@
   "- двумя руками черпай, говорю!(с)"
 */
 
-#ifndef LEDLIGHT_H_
-#define LEDLIGHT_H_
+#ifndef PWM2EYE_H_
+#define PWM2EYE_H_
 
 #include <Arduino.h>
 
