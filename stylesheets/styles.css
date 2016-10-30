@@ -535,7 +535,10 @@ body {
   color: #f0e7d5;
   font-weight: normal;
   background: url(../images/bg_light.jpg) #252525;
-  background-attachment: fixed !important;
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;              /* optional, center the image */
+  
 /*   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2a2a29), color-stop(100%, #1c1c1c));
   background: -webkit-linear-gradient(#2a2a29, #1c1c1c);
   background: -moz-linear-gradient(#2a2a29, #1c1c1c);
