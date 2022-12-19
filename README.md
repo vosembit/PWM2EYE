@@ -10,7 +10,7 @@ Add a library to your project:
 #include "pwm2eye.h"
 </code></pre>
 
-Add an LedLight Object into your project, uisung PWM PIN number as an argument in brackets().
+Add an LedLight Object into your project, using PWM PIN number as an argument in brackets().
 <pre><code>
 LedLight led(14);
 </code></pre>
